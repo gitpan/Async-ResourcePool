@@ -4,7 +4,7 @@
       "unknown"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120630",
+   "generated_by" : "Module::Build version 0.4, CPAN::Meta::Converter version 2.112150",
    "license" : [
       "unknown"
    ],
@@ -16,21 +16,21 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Test::More" : "0"
+            "Test::More" : 0
          }
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.40"
+            "Module::Build" : "0.4"
          }
       }
    },
    "provides" : {
       "Async::ResourcePool" : {
          "file" : "lib/Async/ResourcePool.pm",
-         "version" : "v0.1.1"
+         "version" : "v0.1.2"
       }
    },
    "release_status" : "stable",
-   "version" : "v0.1.1"
+   "version" : "v0.1.2"
 }
